@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <greeting />
+    <form-submitter />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Greeting from './components/Greeting.vue'
+import FormSubmitter from './components/FormSubmitter'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    Greeting
+    Greeting,
+    FormSubmitter
   }
 }
 </script>
