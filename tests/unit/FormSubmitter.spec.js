@@ -1,3 +1,7 @@
+/**
+ * @file 模仿用户输入
+ */
+
 import { shallowMount } from '@vue/test-utils'
 import flushPromises from 'flush-promises'
 import FormSubmitter from '@/components/FormSubmitter'
